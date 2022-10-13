@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Product preview card | Ximo Romero</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="imageContainer">
+            <picture>
+                <source media="(max-width: 480px)" srcset="assets/images/image-product-mobile.webp">
+                <source media="(max-width: 900px)" srcset="assets/images/image-product-desktop.webp">
+                <img src="assets/images/image-product-desktop.webp" alt="Perfume Image">
+            </picture>
+        </div>
+        <div class="textContainer">
+            <p class="preTitle">perfume</p>
+            <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
+            <p class="subTitle">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+            <div class="priceContainer">
+                <h2 class="price">$149.99</h2>
+                <p class="anteriorPrice">$169.99</p>
+            </div>
+            <button class="addToCartButton">
+                <img src="assets/images/icon-cart.svg" alt="Add to cart icon">
+                <p>Add to cart</p>
+            </button>
+        </div>
+    </main>
+</body>
+
+</html>
