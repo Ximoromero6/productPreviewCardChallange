@@ -159,7 +159,7 @@ main .textContainer .addToCartButton img {
   margin-right: 10px;
 }
 
-main .textContainer .addToCartButton p {
+main .textContainer .addToCartButton span {
   font-weight: 600;
 }
 
